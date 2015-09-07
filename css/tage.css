@@ -1,0 +1,18 @@
+/* 
+
+
+
+
+*/
+
+aside .monday, aside .tuesday, aside .wednesday, aside .thursday, aside .friday, aside .saturday, aside .sunday {
+	display: none;
+}
+
+.monday aside .monday,
+.tuesday aside .tuesday,
+.wednesday aside .wednesday, 
+.thursday aside .thursday,
+.friday aside .friday {
+	display: block;
+}

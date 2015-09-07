@@ -1,0 +1,69 @@
+/* Basic Colors */
+
+.beton  { color: #c5bc9a }
+.blue   { color: #009ee0 }
+.orange { color: #eb690b }
+.red    { color: #d2232a }
+.stahl  { color: #44494d }
+.white  { color: #fff }
+
+.bg-orange { background-color: #eb690b }
+
+.t-left  { float: left  }
+.t-right { float: right; }
+
+.large  { font-size: 1.5em;}
+
+
+small {
+    font-size: 0.625em;
+}
+
+.small { /* Helper Class to fix line-height for <small>-items. See: http://jsfiddle.net/ivandurst/7afUZ/ */
+    line-height: 0.75em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* Icons */
+
+.icon {
+    position: relative;
+}
+
+.icon::after {
+    background: transparent url(../img/tesa.png) no-repeat;
+    bottom: -2px;
+    left: 100%;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    margin-left: 3px;
+}
+
+.icon-veggie::after {
+    background-position: -648px -329px;
+    width: 11px;
+    height: 16px;
+}
+
+.icon-chili::after {
+    background-position: -673px -329px;
+    width: 20px;
+    height: 16px;
+}
+
+.icon-veggie-chili::after {
+    background-position: -745px -329px;
+    width: 32px;
+    height: 16px;
+}
+
+.icon-chili-chili::after {
+    background-position: -703px -329px;
+    width: 33px;
+    height: 16px;
+}

@@ -1,0 +1,28 @@
+name = Q-West
+description = Theme für das Q-West
+package = Core
+version = VERSION
+core = 7.x
+
+
+; Regions
+regions[navigation_mobile_top] = Navigation (Mobile) Top
+regions[navigation_mobile] = Navigation (Mobile)
+regions[sidebar] = Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+; Styles (aktivieren)
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/MyFontsWebfontsKit.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/jquery-ui.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/jquery.mmenu.css
+stylesheets[all][] = css/tage.css
+
+; Javascript
+scripts[] = js/modernizr.custom.39080.js
+scripts[] = js/jquery.js
+scripts[] = js/jquery-ui.js
+scripts[] = js/jquery.mmenu.min.js

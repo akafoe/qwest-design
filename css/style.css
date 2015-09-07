@@ -1,0 +1,1360 @@
+
+html {
+    font-family: "Spinnaker", sans-serif;
+    font-weight: 400;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.no-js body,
+.no-backgroundsize body {
+    background: #000 url(../img/bg_720.jpg) fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-behavior: url(backgroundsize.min.htc);
+    behavior: url(backgroundsize.min.htc);
+}
+
+.backgroundsize body {
+    background: #000 url(../img/bg_720.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+
+body { 
+    font-size: 22px;
+    line-height: 1.25em;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: #eb690b;
+}
+
+
+
+h3, h4, h5,
+.uppercase, dl.dd-uppercase dt {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.ui-accordion-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.625em;
+    font-size: 1.5em;
+}
+
+.ui-accordion-content h4 {
+    margin-top: 0;
+    margin-bottom: 0.625em;
+    font-size: 1.125em;
+}
+
+h4 {
+    margin-top: 1em;
+}
+
+h4, p, ul {
+    margin: 0.625em 0 0.625em 0;
+}
+
+p, ul li {
+    font-size: 0.75em
+}
+
+small {
+    font-size: 0.625em;
+}
+
+
+/* Helper Class to fix line-height for <small>-items. See: http://jsfiddle.net/ivandurst/7afUZ/ */
+.small { 
+    line-height: 0.75em;
+}
+
+
+.nobr   { 
+    white-space:nowrap;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.hide-text {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* Definition List */
+
+dt {
+    font-size: 0.8em;
+}
+
+dd { 
+    margin: 0 0 1.2em 0;
+    font-size: 0.7em;
+}
+
+dl.dd-beton dd { 
+    color: #c5bc9a; /* Color: Beton */
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li > dl,
+ul li > ul { /* Reset Margin for Nested  DL */
+    margin: 0;
+    font-size: 1.25em;
+}
+
+#admin-menu-wrapper {
+    font-size: 1em;
+}
+
+/*
+ul li > dl dd {
+    margin-bottom: 0.2em;
+}
+
+ul li {
+    margin-bottom: 1em;
+}*/
+
+/* Global Classes */
+
+.light {
+    background-color: #fff;
+    color: #44494d; /* Stahl */
+}
+
+.beton  { color: #c5bc9a }
+.blue   { color: #009ee0 }
+.orange { color: #eb690b }
+.red    { color: #d2232a }
+.stahl  { color: #44494d }
+.white  { color: #fff }
+
+.bg-orange { background-color: #eb690b }
+
+.t-left  { float: left  }
+.t-right { float: right; }
+
+.large  { font-size: 1.5em;}
+
+/* Main Content Container */
+
+#main {
+    margin: 0 1.5em;
+    color: #fff;
+}
+
+#main img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 10px #000;
+}
+
+/* Logo */
+#logo {
+    position: relative;
+    min-width: 200px;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#logo h1 {
+    margin: 0;
+}
+
+#logo h1:after {
+    background: transparent url(../img/logo.png);
+    /* background-image: url(../img/qwest_logo.svg), none; */
+    background-size: contain;
+    content:'';
+    display: block;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 1px;
+    width: 200px;
+}
+
+/* Pages */
+
+h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+
+/* Seite WLQM */
+
+#node-345 {
+    box-shadow: 0 0 10px #121212 inset;
+    padding-top: 6em;
+    position: relative;
+}
+
+#node-345:before {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url(../img/tesa.png) no-repeat -633px -386px;
+    width: 144px;
+    height: 143px;
+    top: -1px;
+    left: 50%;
+    margin-left: -72px;
+    visibility: visible;
+}
+
+#node-345 h4 {
+    margin-bottom: 0;
+    margin-top: 1.2em;
+}
+
+#node-345 p {
+    margin-top: 0.2em;
+}
+
+#node-345 table tbody {
+    border: 0;
+}
+
+#node-345 p, #node-345 table {
+    font-size: 0.7em;
+    border: 0;
+}
+
+#node-345 table td {
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+
+#q-story {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 1.5em;
+    -webkit-transform: rotate(358deg);
+    -moz-transform: rotate(358deg);
+}
+
+#q-story h4 { 
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+#akafoe-logo {
+    background: url(../img/tesa.png) no-repeat -327px -411px;
+    width: 138px;
+    height: 38px;
+}
+
+#q-story p {
+    font-size: 0.7em;
+}
+
+#q-story:after,
+#q-story:before,
+#q-story h4:after {
+    display: block;
+    content: "";
+    background: transparent url(../img/tesa.png) no-repeat;
+    position: absolute;
+}
+
+#q-story:after {
+    background-position: -22px -13px;
+    width: 60px;
+    height: 276px;
+    left: -21px;
+    top: 50px;
+}
+
+#q-story:before {
+    background-position: -140px -122px;
+    width: 155px;
+    height: 177px;
+    left: 300px;
+    top: -90px;
+}
+
+#q-story h4:after {
+    background-position: -85px -12px;
+    width: 208px;
+    height: 67px;
+    left: 8em;
+    bottom: -37px;
+}
+
+/* Q-Day - Quicktabs */
+
+.quicktabs_main {
+  border-top:none;
+  clear:both;
+}
+
+ul.quicktabs-tabs {
+  margin:0;
+  border-bottom: 1px solid #fff;
+}
+
+ul.quicktabs-tabs a {
+  text-decoration:none;
+  color:#c5bc9a;
+  display: inline-block;
+  padding: 0 1.8em;
+  font-size: 1.2em;
+}
+
+ul.quicktabs-tabs a:hover {
+  color:#fff;
+}
+
+ul.quicktabs-tabs li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.quicktabs-tabs li a {
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+  line-height: 1.8em;
+}
+
+ul.quicktabs-tabs a:hover {
+  border: 1px solid #fff;
+  border-bottom: none;
+  color: #fff;
+  border-bottom:none;
+}
+
+ul.quicktabs-tabs li.active a {
+    border: 1px solid #eb690b;
+    border-bottom: none;
+    color:#fff;
+    background-color: #eb690b;
+    position: relative;
+}
+
+ul.quicktabs-tabs li.active a:after {
+    border: 1px solid #eb690b;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -20px;
+    z-index: 1;
+    border: 10px solid transparent;
+    border-top-color: #eb690b;
+}
+
+h4.speiseplan-date {
+    margin-top: 1em;
+}
+
+.allergene {
+    font-size: 0.5em;
+    line-height: 1.25em;
+}
+
+/* Hintergrundbilder */
+
+/* Frühstücker */
+#node-334 {
+    background: #fff url(../img/bg_fruehstueck.jpg) no-repeat;
+}
+
+/* Bier */
+#node-336 {
+    background: url(../img/bg_bier.jpg) no-repeat;
+}
+
+/* Cocktails */
+.backgroundsize #node-332 {
+    background: url(../img/bg_cocktails.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Coffeeshop */
+.backgroundsize #node-337 {
+    background: url(../img/bg_coffeeshop.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Snacks */
+.backgroundsize #node-338 {
+    background: url(../img/bg_snacks.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Woq */
+.backgroundsize #node-342 {
+    background: url(../img/bg_woq.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+/* Sweets */
+.backgroundsize #node-343 {
+    background: url(../img/bg_sweets.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 22em;
+}
+
+/* Burger */
+#bg_burger { 
+    height: 197px;
+    background: url(../img/bg_burger.png) no-repeat;
+} 
+
+
+.no-backgroundsize #node-332,
+.no-js #node-332 {
+    background-image: url(../img/bg_cocktails.jpg)
+}
+
+.no-backgroundsize #node-337,
+.no-js #node-7 {
+    background-image: url(../img/bg_coffeeshop.jpg)
+}
+
+.no-backgroundsize #node-338,
+.no-js #node-8 {
+    background-image: url(../img/bg_snacks.jpg)
+}
+
+.no-backgroundsize #node-342,
+.no-js #node-12 {
+    background-image: url(../img/bg_woq.jpg)
+}
+
+.no-backgroundsize #node-343,
+.no-js #node-14 {
+    background-image: url(../img/bg_sweets.jpg)
+}
+
+
+.no-backgroundsize #node-332,
+.no-backgroundsize #node-337,
+.no-backgroundsize #node-338,
+.no-backgroundsize #node-342,
+.no-backgroundsize #node-343,
+.no-js #node-332, .no-js #node-337, .no-js #node-338, .no-js #node-342, .no-js #node-343 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-behavior: url(backgroundsize.min.htc);
+    behavior: url(backgroundsize.min.htc);
+    background-repeat: no-repeat;
+}
+
+/* Headlines */
+.headline p {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+
+/* Sternchen */
+
+.star-wrapper {
+    position: relative;
+}
+
+.star:after {
+    display: block;
+    content: "";
+    background: transparent url(../img/tesa.png) no-repeat;
+    position: absolute;
+}
+
+#star-fruehstueck .star:after {
+    background-position: -317px -12px;
+    width: 138px;
+    height: 140px;
+    left: 300px;
+    top: 10px;
+}
+
+#star-cocktails .star:after {
+    background-position: -482px -12px;
+    width: 137px;
+    height: 140px;
+    left: 180px;
+    top: 70px;
+}
+
+#star-coffee {
+    margin-top: 30px;
+}
+
+#star-coffee .star:after {
+    background-position: -648px -12px;
+    width: 138px;
+    height: 140px;
+    left: 335px;
+}
+
+#star-snacks .star:after {
+    background-position: -317px -173px;
+    width: 138px;
+    height: 140px;
+    left: 55px;
+    top: 10px;
+}
+
+#star-salads {
+    margin-top: 340px;
+}
+
+#star-salads .star:after {
+    background-position: -487px -173px;
+    width: 136px;
+    height: 140px;
+    right: 55px;
+    top: -130px;
+}
+
+#star-sweets .star:after {
+    background-position: -648px -177px;
+    width: 130px;
+    height: 132px;
+    left: 180px;
+    top: 400px;
+}
+
+
+/* Sprüche */
+    
+/* Spezialformatierungen für Sondertexte: Webfont Bookeyed Suzanne, mit leichter Textrotation; */
+.spruch {
+    font-family: 'BookeyedSuzanne';
+    font-size: 2.7em;
+}
+
+.rotate-2 {
+    -webkit-transform: rotate(358deg);
+    -moz-transform: rotate(358deg);
+} 
+
+.rotate-5 {
+    -webkit-transform: rotate(355deg);
+    -moz-transform: rotate(355deg);
+}
+
+.rotate-10 {
+    -webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+}
+
+.rotate-358 {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+} 
+
+
+#spruch-salat {
+    text-align: right;
+}
+
+
+
+/* ANDs - Burger-Seite */
+
+.and { 
+    position: relative;
+    margin-bottom: 6em;
+}
+
+.and::after {
+    background: transparent url(../img/tesa.png) no-repeat;
+    content: '';
+    position: absolute;
+    left: 50%;
+}
+
+#and-1::after {
+    background-position: -16px -328px;
+    width: 71px;
+    height: 56px;
+    margin-left: -35px; /* Width/2 */
+}
+
+#and-2::after {
+    background-position: -125px -333px;
+    width: 47px;
+    height: 45px;
+    margin-left: -23px; /* Width/2 */    
+}
+
+/* Tablet & Mobile only! */
+.and#and-3 { 
+    margin: 0;
+}
+
+#and-4::after {
+    background-position: -296px -330px;
+    width: 62px;
+    height: 45px;
+    margin-left: -31px; /* Width/2 */    
+}
+
+
+/* Icons */
+
+.icon {
+    position: relative;
+}
+
+.icon::after {
+    background: transparent url(../img/tesa.png) no-repeat;
+    bottom: -2px;
+    left: 100%;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    margin-left: 3px;
+}
+
+.icon-veggie::after {
+    background-position: -648px -329px;
+    width: 11px;
+    height: 16px;
+}
+
+.icon-chili::after {
+    background-position: -673px -329px;
+    width: 20px;
+    height: 16px;
+}
+
+.icon-veggie-chili::after {
+    background-position: -745px -329px;
+    width: 32px;
+    height: 16px;
+}
+
+.icon-chili-chili::after {
+    background-position: -703px -329px;
+    width: 33px;
+    height: 16px;
+}
+
+/* Forms */
+
+label {
+    display: block;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 1em;
+    margin-bottom: 0.2em;;
+}
+
+span.form-required {
+    color: #FF0000;
+}
+
+.form-item {
+    margin: 0;
+}
+
+.form-item .description {
+    font-size: 0.5em;
+    line-height: 0.5em;
+    margin-bottom: 1em;
+}
+
+input {
+    line-height: normal;
+}
+
+input, textarea, select {
+    color: #000000;
+    font-size: 0.7em;
+    line-height: 1em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 20em;
+    max-width: 100%; /* Für Mobile Endgeräte */
+}
+
+textarea,
+.form-textarea-wrapper textarea {
+    width: 40em;
+    max-width: 100%;
+    height: 12em;
+}
+
+input[type="text"]:focus, input[type="email"]:focus,
+textarea:focus {
+    box-shadow: 0px 1px 4px 2px #eb690b, inset 0px 0px 0px #fff;
+    outline: 0;
+}
+
+input[type="button"],
+input[type="submit"], 
+input[type="reset"] {
+    padding: 0.5em;
+    width: auto;
+    cursor: pointer;
+}
+
+.contact-nachricht textarea {
+    background: #fff url('../img/q-form.png') no-repeat;
+    background-position: center 0;
+    
+    -webkit-transition: background-position  0.5s ease-in-out;
+    -moz-transition: background-position  0.5s ease-in-out;
+    -o-transition: background-position  0.5s ease-in-out;
+    transition: background-position  0.5s ease-in-out;
+}
+
+.contact-nachricht textarea:focus {
+    background-position: center -150px;
+}
+
+
+.contact-name, .contact-nachricht, .contact-nachricht {
+    position: relative;
+}
+
+.contact-name:after,
+.contact-nachricht:before,
+.contact-nachricht:after {
+    display: block;
+    content: "";
+    background-image: url(../img/tesa.png);
+    position: absolute;
+}
+
+.contact-name:after {
+    background-position: -22px -13px;
+    width: 60px;
+    height: 276px;
+    left: -21px;
+    top: -10px;
+}
+
+.contact-nachricht:before {
+    background-position: -140px -122px;
+    width: 155px;
+    height: 177px;
+    left: 24em;
+    top: -36px;
+}
+
+.contact-nachricht:after {
+    background-position: -85px -12px;
+    width: 208px;
+    height: 67px;
+    left: 8em;
+    bottom: -37px;
+}
+
+/* Sidebar */
+aside { 
+    margin-bottom: 1em;
+    font-size: 0.625em;
+}
+
+/* Sidebar Blocks */
+aside h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+}
+
+aside .block {
+    margin-bottom: 3.5em;
+    padding: 1em;
+    box-shadow: 0 2px 10px #000;
+}
+
+aside table {
+    width: 100%;
+}
+
+aside tbody {
+    border-top: 0;
+}
+
+aside td {
+    padding: 0.5em 0.5em 0.5em 0;
+    vertical-align: top;
+    line-height: 1.2em;
+}
+
+/* Sidebar Blocks - Tagesplan */ 
+aside .tagesplan { background-color: #fff; color: #000; margin-top: 3em; }
+aside .tagesplan h3 { color: #eb690b; }
+
+
+/* Sidebar Blocks - Öffnungszeiten */ 
+aside .opening { background-color: #eb690b; color: #fff; }
+aside .opening h3 { color: #fff; }
+
+/* Sidebar Block Social Media */
+
+aside .social-media {
+    box-shadow: none;
+}
+
+aside .social-media ul {
+    margin: 0;
+}
+
+aside .social-media li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+aside #sm-fb:after,
+aside #sm-g:after {
+    background: url(../img/tesa.png) no-repeat;
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 1em;
+}
+
+aside #sm-fb:after { background-position: -423px -459px; }
+aside #sm-g:after  { background-position: -423px -497px; }
+
+aside #sm-fb:hover:after { background-position: -379px -459px; }
+aside #sm-g:hover:after  { background-position: -379px -497px; }
+
+/* Google Map */
+/*
+#map_container {
+    width: 570px;
+    height: 288px;
+    position: relative;
+ 
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#map_canvas {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    height: 200px;
+    width: 365px;
+}
+
+.no-js #map_canvas {
+    background: url(../img/no-js-map.png) no-repeat;
+    background-size: 100%;
+}
+ 
+#mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    height: 288px;
+    width: 570px;
+ 
+    background: url(../img/map-hintergrund.png) no-repeat;
+    background-size: 100%;
+ 
+    pointer-events: none;
+}*/
+
+/* Media Query's */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: 20px;
+    }
+ 
+    small {
+        font-size: 0.7em
+    }
+
+    #main {
+        margin: 0 1em;
+    }
+
+    /* Seite WLQM */
+
+    #q-story:after {
+        left: -21px;
+        top: 0px;
+    }
+
+    #q-story:before {
+        left: 300px;
+        top: -50px;
+    }
+
+    #q-story h4:after {
+        left: 10em;
+        bottom: -37px;
+    }
+
+    /* Seite Q-Day */
+
+    ul.quicktabs-tabs a {
+      text-align: center;
+      text-decoration:none;
+      color:#c5bc9a;
+      display: inline-block;
+      padding: 0 1.3em;
+      font-size: 1.1em;
+    }
+
+
+    /* Hintergrundbilder */
+    
+    /* Frühstücker */
+    #node-334 {
+        background-image: none;
+    }
+
+    .backgroundsize #node-343 {
+        padding-bottom: 0;
+    }
+ 
+    /* Stars */
+    
+    #star-fruehstueck .star:after {
+        background-position: -372px -322px;
+        width: 78px;
+        height: 78px;
+        left: 250px;        
+        top: -10px;
+    }
+    
+    #star-cocktails .star:after {
+        background-position: -482px -12px;
+        width: 137px;
+        height: 140px;
+        left: 350px;
+        top: 150px;
+    }
+    
+    #star-coffee {
+        margin-top: 0;
+    }
+
+    #star-coffee .star:after {
+        background-position: -648px -12px;
+        width: 138px;
+        height: 140px;
+        left: 370px;
+        top: 0px;
+    }
+    
+    #star-snacks .star:after {
+        background-position: -317px -173px;
+        width: 138px;
+        height: 140px;
+        left: 400px;
+        top: 10px;
+    }
+    
+    #star-salads {
+        margin-top: 20px;
+    }
+
+    #star-salads .star:after {
+        background-position: -487px -173px;
+        width: 136px;
+        height: 140px;
+        left: 250px;
+        top: -60px;
+    }
+    
+    #star-sweets .star:after {
+        background-position: -648px -177px;
+        width: 130px;
+        height: 132px;
+        left: 400px;
+        top: -150px;
+    }
+
+    
+    
+    /* And's - Burger Seite */
+    
+    #and-1::after {
+        background-position: -17px -391px;
+        width: 59px;
+        height: 47px;
+        margin-left: -29px; /* Width/2 */
+    }
+
+    #and-2::after {
+        background-position: -108px -395px;
+        width: 39px;
+        height: 38px;
+        margin-left: -19px; /* Width/2 */    
+    }
+
+    .and#and-3 { 
+        margin-bottom: 6em;
+    }
+    
+    #and-3::after {
+        background-position: -179px -394px;
+        width: 37px;
+        height: 42px;
+        margin-left: -17px; /* Width/2 */
+    } 
+
+    #and-4::after {
+        background-position: -296px -330px;
+        width: 62px;
+        height: 45px;
+        margin-left: -31px; /* Width/2 */    
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    small {
+        font-size: 0.8em
+    }
+
+    /* Seite WLQM */
+
+    #node-345:before {
+        background-position: -542px -450px;
+        width: 81px;
+        height: 79px;
+        margin-left: -55px;
+    }
+
+    #akafoe-logo {
+        background: url(../img/tesa.png) no-repeat -479px -411px;
+        width: 110px;
+        height: 30px;
+    }
+
+    /* Seite Q-Day */
+
+    ul.quicktabs-tabs a {
+      text-align: center;
+      text-decoration:none;
+      color:#c5bc9a;
+      display: block;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    ul.quicktabs-tabs li.active a:after {
+        display: none;
+    }
+
+    ul.quicktabs-tabs a:hover {
+      border: 1px solid transparent;
+      border-bottom: none;
+      color: #fff;
+      border-bottom:none;
+    }
+
+    /* Hintergrundbilder */
+
+
+    
+    /* Frühstücker */
+    #node-334 {
+        background-image: none;
+    }
+
+    .backgroundsize #node-343 {
+        padding-bottom: 0;
+    }
+ 
+    
+    /* Stars */
+    
+    #star-fruehstueck .star:after {
+        background-position: -372px -322px;
+        width: 78px;
+        height: 78px;
+        left: 180px;        
+        top: -30px;
+    }
+    
+    #star-cocktails .star:after {
+        background-position: -455px -321px;
+        width: 76px;
+        height: 78px;
+        top: -13px;
+        left: 130px;
+    }
+
+    #star-coffee {
+        margin-top: 0;
+    }
+
+    #star-coffee .star:after {
+        background-position: -455px -321px;
+        width: 76px;
+        height: 78px;
+        left: 170px;
+        top: -10px;
+    }
+    
+    #star-snacks {
+        margin-top: 3.5em;
+    }
+    
+    #star-snacks .star:after {
+        background-position: -543px -322px;
+        width: 76px;
+        height: 77px;
+        left: 50%;
+        margin-left: -38px; /* Width/2 */
+        top: -3.5em;
+    }
+    
+    #star-salads {
+        margin-top: 110px;
+    }
+
+    #star-salads .star:after {
+        background-position: -487px -173px;
+        width: 136px;
+        height: 140px;
+        left: 50%;
+        margin-left: -68px;
+        top: -120px;
+    }
+    
+    /* And's - Burger Seite */
+    
+    .and {
+        margin-bottom: 5em;
+    }
+    
+    #and-1::after {
+        background-position: -15px -448px;
+        width: 47px;
+        height: 37px;
+        margin-left: -23px; /* Width/2 */
+    }
+
+    #and-2::after {
+        background-position: -88px -451px;
+        width: 31px;
+        height: 31px;
+        margin-left: -12px; /* Width/2 */    
+    }
+
+    .and#and-3 { 
+        margin-bottom: 5em;
+    }
+    
+    #and-3::after {
+        background-position: -145px -450px;
+        width: 29px;
+        height: 34px;
+        margin-left: -14px; /* Width/2 */
+    } 
+
+    #and-4::after {
+        background-position: -202px -449px;
+        width: 41px;
+        height: 30px;
+        margin-left: -20px; /* Width/2 */    
+    }
+
+    /* Form */
+
+    .contact-nachricht:before {
+        background-position: -140px -122px;
+        width: 155px;
+        height: 177px;
+        left: 173px;
+        top: -56px;
+    }
+
+    /* Icons */
+    
+    .icon::after {
+        bottom: -2px;
+        margin-left: 3px;
+    }
+
+    .icon-veggie::after {
+        background-position: -650px -358px;
+        width: 8px;
+        height: 12px;
+    }
+
+    .icon-chili::after {
+        background-position: -676px -358px;
+        width: 15px;
+        height: 12px;
+    }
+
+    .icon-veggie-chili::after {
+        background-position: -750px -358px;
+        width: 24px;
+        height: 12px;
+    }
+
+    .icon-chili-chili::after {
+        background-position: -707px -358px;
+        width: 25px;
+        height: 12px;
+    }
+}
+
+/* Mobile Navigation only */
+
+@media screen and (max-width: 1024px) {
+
+    /* Fix hight for Mobile Navigation */
+    .pages,
+    .accordion {
+        padding-top: 4em;
+    }
+
+    #main {
+        margin: 0 0.5em;
+    }
+
+    #basic, 
+    #logo {
+        display: none;
+    }
+
+    #mobile_top {
+        position: fixed;
+        background: rgba(0,0,0,0.4);
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFF;
+        line-height: 50px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        padding: 0 20px;
+        z-index: 9999;
+    }
+
+    .m-icon:after {
+        position: relative;
+        display: inline-block;
+        content: '';
+        background: url(../img/tesa.png) no-repeat;
+    }
+
+    /* Logo */
+    #m-logo:after {
+    /*
+        background-position: -473px -479px; */
+        background-image: url(../img/qwest_logo.svg);
+        background-size: contain;
+        width: 51px;
+        height: 50px;
+        left: 50%;
+        bottom: 0;
+        margin-left: -50px;
+    }
+
+    /* Menu */
+    #m-menu:after {
+        background-position: -273px -454px;
+        width: 25px;
+        height: 21px;
+        left: 0;
+        bottom: 13px;
+        margin-top: 14px;
+} 
+
+
+/* Basic Navigation on Desktop */
+
+@media screen and (min-width: 1025px) {
+
+    #basic {
+        display: block;
+    }
+
+    #mobile_top { 
+        display: none;
+    }
+}
+

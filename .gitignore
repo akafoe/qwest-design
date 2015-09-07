@@ -1,0 +1,5 @@
+# Ignore Font Files
+*.eot
+*.ttf
+*.woff
+*.woff2

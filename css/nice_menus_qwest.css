@@ -1,0 +1,64 @@
+/*
+  This is the default layout template for nice menus, and will provide
+  a starting point for the look of your menus. To customize, it's
+  recommended to create a custom CSS file using this file as a template,
+  then configure the module to use your custom CSS file
+  (this is done in the global settings tab of the theme administration.)
+
+  See README.txt and the handbook page (http://drupal.org/node/185543)
+  for more information on using the CSS.
+*/
+
+/******************************
+ Global CSS for ALL menu types
+******************************/
+
+ul.nice-menu,
+ul.nice-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nice-menu {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+ul.nice-menu li {
+  font-size: 22px;
+  padding: 0 0.75em;
+  border-top: 0;
+  float: left; /* LTR */
+}
+
+ul.nice-menu li.first {
+  padding-left: 0;
+}
+
+
+ul.nice-menu a {
+  font-size: 1em;
+  color: #eb690b;
+  text-decoration: none;
+  text-transform: uppercase;
+  webkit-transition: color 0.3s ease;
+  moz-transition: color 0.3s ease;
+  o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+
+}
+
+ul.nice-menu a:hover {
+  color: #fff;
+}
+
+
+/******************************
+ HORIZONTAL (down) menus
+******************************/
+
+ul.nice-menu-down {
+  float: left; /* LTR */
+  border: 0;
+}
